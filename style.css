@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+.footer{
+    background-color: #0B0D17;
+    font-family: 'Montserrat';
+    padding: 37px 0;
+    text-align: center;
+}
+.footer>p{
+    color: azure;
+    font-family: 'Montserrat';
+    
+}
+.bold-text{
+    color: #e12637;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+h1{
+    color: #5B5B5B;
+    font-family: 'Montserrat';
+    font-size: 30pt;
+    font-weight: bold;
+}
+body{
+    background-color: #ffffff;
+    margin: 0;
+}
+.container{
+    width: 1240px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.row{
+display: flex;
+}
+p{
+    color:#0B0D17;
+    font-family: 'Montserrat';
+}
+.row>div{
+    flex-basis: 33.33%;
+    text-align: center;
+}
+.row>div>h1{
+    font-family: 'Montserrat';
+    color: #0B0D17;
+    font-weight: bolder;
+}
+.section-header{
+    text-align: center;
+    margin: 0;
+}
+img{
+    width: 337px;
+    height: 256px;
+    margin-top: 20px;
+}
+h3{
+    font-family: 'Montserrat';
+    color: #0B0D17;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 40px;
+}
+.recipe{
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.second-section{
+    background-image: url("https://habibulislam6862.github.io/food-network/img/frame.jpg");
+    background-size: cover;
+
+}
+.second-image{
+    height: 556px;
+    margin: 80px;
+    margin-left: 300px;
+}
+.container-two{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.col-left{
+    float: left;
+}
+.col-right{
+    text-align: left!important;
+    margin: 80px;
+    margin-right: 300px;
+    
+}   
+.flex{
+    display: flex;
+}
+.row>.col-right>h1{
+    color: #5B5B5B;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.btn-danger{
+    background-image: linear-gradient(to right, rgb(240, 38, 38), rgb(211, 19, 67));
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+}
+.btn-danger:hover{
+    background-image: linear-gradient(to right, rgb(185, 3, 3), rgb(184, 2, 47));
+}
